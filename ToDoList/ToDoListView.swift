@@ -32,9 +32,9 @@ struct ToDoListView: View {
                 .onDelete(perform: toDosVM.deleteToDo)
                 .onMove(perform: toDosVM.moveToDo)
                 // Traditional calls are below
-//                .onDelete { indexSet in
-//                    toDosVM.delete(indexSet: indexSet)
-//                }
+//.onDelete { indexSet in
+//    toDosVM.delete(indexSet: indexSet)
+//}
 //                .onMove { fromOffsets, toOffset in
 //                    toDosVM.move(fromOffsets: fromOffsets, toOffset: toOffset)
 //                }
